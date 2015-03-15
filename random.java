@@ -1,7 +1,7 @@
 public class random{
 	public static void main(String[] args) {
 		int randomNumber = 1 + (int)(Math.random()*50);
-		int randomNumberByMode = randomNumber % 4;
+		int randomNumberByMode = randomNumber % 4; // generate random number from 0 to 4
 
 		switch(randomNumberByMode){
 			case 0:
